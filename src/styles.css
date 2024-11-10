@@ -1,10 +1,11 @@
 :root {
-    --primary-color: #E9E3DF;
+    --primary-color: #D9CECF;
     --secondary-color: #E9DEDB;
     --third-color: #D9C6B6;
     --fourth-color: #AFC7B5;
     --fifth-color: #CECCE6;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --paragraph-text: font-family: "Poppins", sans-serif;
 }
 
 body {
@@ -28,46 +29,154 @@ p {
 }
 footer {
     background-color: #D9CECF;
-    text-align: center;
+    text-align: start;
 }
 .menu {
     margin-left: 20px;
+}
+.menu-color {
+    background-color: var(--primary-color);
 }
 .hero {
     padding-top: 190px;
     text-align: center;
     background-image: url("/images/hero.jpg");
-    min-height: 650px;
+    /*background-color: #D9CECF; */
+    min-height: 720px;
     margin: 0px 20px 50px 20px;
+}
+.header {
+    padding-top: 90px;
+    text-align: center;
+    min-height: 120px;
+    margin: 0px 20px 50px 20px;
+}
+.preview {
+    text-align: center;
+    margin-top: 300px;
+    padding-top: 20px;
 }
 
 .images {
    border-radius: 10px;
    max-width: 80%;
+   box-shadow: var(--box-shadow);
 }
-.start-button {
+
+.hover-div-weather {
+    position: relative;
+  }
+  .hover-div-weather img:hover {
+    filter: opacity(0.5);
+    filter: blur(4px);
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+}
+  
+  .hover-div-weather::after {
+    content: "A world weather app using Javascript, advanced CSS, API integration";
+    font-family: var(--paragraph-text);
+    position: absolute;
+    max-width:70%;
+    background-color: white;
+    border-radius: 5px;
+    top: 60%;
+    left: 70px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .hover-div-weather:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .hover-div-clock {
+    position: relative;
+  }
+  .hover-div-clock img:hover {
+    filter: opacity(0.5);
+    filter: blur(4px);
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+}
+  
+  .hover-div-clock::after {
+    content: "A world clock app using Javascript, advanced CSS, API integration";
+    font-family: var(--paragraph-text);
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    max-width:70%;
+    top: 60%;
+    left: 70px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-div-clock:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .hover-div-pasta {
+    position: relative;
+  }
+  .hover-div-pasta img:hover {
+    filter: opacity(0.5);
+    filter: blur(4px);
+    transform: scale(1.2);
+    transition: ease-in-out 0.3s;
+}
+  
+  .hover-div-pasta::after {
+    content: "A page about pasta using HTML, Javascript and advanced CSS";
+    font-family: var(--paragraph-text);
+    position: absolute;
+    background-color: white;
+    border-radius: 5px;
+    max-width:70%;
+    top: 60%;
+    left: 70px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-div-pasta:hover::after {
+    visibility: visible;
+    opacity: 1;
+  }
+
+.preview-button {
     background-color: var(--fourth-color);
     padding:15px 25px;
     color: white;
     font-weight: bold;
     box-shadow: var(--box-shadow);
 }
-.start-button:hover {
+.preview-button:hover {
     background-color: var(--fifth-color);
     color: white;
     font-weight: bold;
 }
+.back-button {
+    text-align: center;
+}
 .icons {
+padding:10px 30px;
 color:gray;
-font-size: 60px;
+font-size: 50px;
 }
 @media (max-width:576px) {
     h1 {
-        font-size: 40px;
+        font-size: 34px;
         line-height: 1.1;
     }
     h2 {
-        font-size: 32px;
+        font-size: 20px;
         line-height: 1.5;
     }
     h3 {
