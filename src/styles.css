@@ -1,10 +1,10 @@
 :root {
     --primary-color: #D9CECF;
-    --secondary-color: #E9DEDB;
+    --secondary-color: #f7f1ef;
     --third-color: #D9C6B6;
     --fourth-color: #AFC7B5;
     --fifth-color: #CECCE6;
-    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
     --paragraph-text: font-family: "Poppins", sans-serif;
 }
 
@@ -61,6 +61,17 @@ footer {
    border-radius: 10px;
    max-width: 80%;
    box-shadow: var(--box-shadow);
+}
+
+.large-images {
+   padding: 0px 50px 0px 30px;
+   border-radius: 20px;
+}
+.card-background {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    box-shadow: var(--box-shadow);
+    padding: 20px;
 }
 
 .hover-div-weather {
