@@ -69,10 +69,7 @@ footer {
 }
 
 .large-images {
-    border-radius: 10px;
-   /* padding: 0px 50px 0px 30px; */
    box-shadow: var(--box-shadow);
-
 }
 
 .hover-div-weather {
