@@ -31,6 +31,7 @@ footer {
     background-color: #D9CECF;
     text-align: start;
 }
+
 .menu {
     margin-left: 20px;
 }
@@ -69,12 +70,38 @@ footer {
     background-color: var(--secondary-color);
     min-height: 387px;
 }
+.h2-center {
+    text-align: center;
+}
 .images {
    border-radius: 10px;
    max-width: 80%;
    box-shadow: var(--box-shadow);
 }
 
+.cert-images {
+    border-radius: 10px;
+    max-width: 100%;
+    box-shadow: var(--box-shadow);
+ }
+
+.certificate-images1:hover {
+    transform: scale(2.0) translate(40px);
+    transition: ease-in-out 0.3s;
+   
+}
+
+.certificate-images2:hover {
+    transform: scale(2.0);
+    transition: ease-in-out 0.3s;
+   
+}
+
+.certificate-images3:hover {
+    transform: scale(2.0) translate(-40px);
+    transition: ease-in-out 0.3s;
+   
+}
 .large-images {
    box-shadow: var(--box-shadow);
 }
@@ -186,6 +213,47 @@ padding:10px 30px;
 color:gray;
 font-size: 50px;
 }
+.credits {
+    text-align: center;
+    font-size: 11px;
+}
+
+@media (max-width:767px) {
+  /*  h1 {
+        font-size: 34px;
+        line-height: 1.1;
+    }
+    h2 {
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    h3 {
+        margin-top: 5px;
+    }
+    p {
+        font-size: smaller;
+    }
+    .icons {
+        font-size:30px;
+    }
+    .contact-block {
+        padding: 30px 0px 30px 0px;
+        background-color: var(--secondary-color);
+        min-height: 0px;
+    } */
+    .certificate-images1:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;  
+    }
+    .certificate-images2:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;     
+    }  
+    .certificate-images3:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;  
+    }
+  } 
 
 @media (max-width:576px) {
     h1 {
@@ -209,5 +277,22 @@ font-size: 50px;
         padding: 30px 0px 30px 0px;
         background-color: var(--secondary-color);
         min-height: 0px;
+    }
+    .certificate-images1:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;
+       
+    }
+    
+    .certificate-images2:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;
+       
+    }
+    
+    .certificate-images3:hover {
+        transform: scale(1);
+        transition: ease-in-out 0.3s;
+       
     }
   } 
