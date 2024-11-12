@@ -70,6 +70,16 @@ footer {
     background-color: var(--secondary-color);
     min-height: 389px;
 }
+.theme-change {
+    margin: -10px -10px 0px 0px;
+    font-size: 34px;
+    color: white;
+    font-weight: bolder;
+}
+.theme-change:hover {
+    color: black;
+    cursor:pointer;
+}
 .h2-center {
     text-align: center;
 }
