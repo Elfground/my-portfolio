@@ -199,6 +199,7 @@ footer {
     color: white;
     font-weight: bold;
     box-shadow: var(--box-shadow);
+    text-align: center;
 }
 .preview-button:hover {
     background-color: var(--fifth-color);
@@ -219,28 +220,9 @@ font-size: 50px;
 }
 
 @media (max-width:767px) {
-  /*  h1 {
-        font-size: 34px;
-        line-height: 1.1;
+    .infoblock a {
+        text-align: center;
     }
-    h2 {
-        font-size: 20px;
-        line-height: 1.5;
-    }
-    h3 {
-        margin-top: 5px;
-    }
-    p {
-        font-size: smaller;
-    }
-    .icons {
-        font-size:30px;
-    }
-    .contact-block {
-        padding: 30px 0px 30px 0px;
-        background-color: var(--secondary-color);
-        min-height: 0px;
-    } */
     .certificate-images1:hover {
         transform: scale(1);
         transition: ease-in-out 0.3s;  
@@ -252,6 +234,12 @@ font-size: 50px;
     .certificate-images3:hover {
         transform: scale(1);
         transition: ease-in-out 0.3s;  
+    }
+    .preview-button {
+        text-align: center;
+    }
+    a {
+        text-align: center;
     }
   } 
 
@@ -270,6 +258,9 @@ font-size: 50px;
     p {
         font-size: smaller;
     }
+    a {
+        text-align: center;
+    }
     .icons {
         font-size:30px;
     }
@@ -277,6 +268,9 @@ font-size: 50px;
         padding: 30px 0px 30px 0px;
         background-color: var(--secondary-color);
         min-height: 0px;
+    }
+    .infoblock a {
+        text-align: center;
     }
     .certificate-images1:hover {
         transform: scale(1);
@@ -289,10 +283,12 @@ font-size: 50px;
         transition: ease-in-out 0.3s;
        
     }
-    
     .certificate-images3:hover {
         transform: scale(1);
         transition: ease-in-out 0.3s;
        
+    }
+    .preview-button {
+        text-align: center;
     }
   } 
