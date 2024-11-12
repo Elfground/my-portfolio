@@ -68,11 +68,16 @@ footer {
 .contact-block {
     padding: 30px 50px 30px 10px;
     background-color: var(--secondary-color);
-    min-height: 387px;
+    min-height: 389px;
 }
 .h2-center {
     text-align: center;
 }
+.contact-options {
+    font-family: var(--paragraph-text);
+    font-weight: 700;
+}
+
 .images {
    border-radius: 10px;
    max-width: 80%;
