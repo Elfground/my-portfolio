@@ -6,5 +6,6 @@ function goDark() {
       body.classList.add("dark");
     }
   }
-   let themeButton = document.querySelector(".theme-change");
+
+  let themeButton = document.querySelector("#theme-change");
   themeButton.addEventListener("click", goDark);

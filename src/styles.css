@@ -233,6 +233,19 @@ font-size: 50px;
     text-align: center;
     font-size: 11px;
 }
+.dark {
+    background-color: rgb(31, 31, 31);
+    color: white;
+  }
+  .dark .container {
+    background: rgb(49, 49, 49);
+  }
+  .dark a {
+    color: red;
+  }
+  .dark footer {
+    background: rgb(49, 49, 49);
+  }
 
 @media (max-width:767px) {
     .infoblock a {
