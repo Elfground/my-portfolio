@@ -132,6 +132,7 @@ footer {
 }
   
   .hover-div-weather::after {
+    padding: 15px 5px;
     content: "A world weather app using Javascript, advanced CSS, API integration";
     font-family: var(--paragraph-text);
     position: absolute;
@@ -161,6 +162,7 @@ footer {
 }
   
   .hover-div-clock::after {
+    padding: 15px 5px;
     content: "A world clock app using Javascript, advanced CSS, API integration";
     font-family: var(--paragraph-text);
     position: absolute;
@@ -190,6 +192,7 @@ footer {
 }
   
   .hover-div-pasta::after {
+    padding: 15px 5px;
     content: "A page about pasta using HTML, Javascript and advanced CSS";
     font-family: var(--paragraph-text);
     position: absolute;
