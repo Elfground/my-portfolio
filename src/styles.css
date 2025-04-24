@@ -5,7 +5,7 @@
     --fourth-color: #AFC7B5;
     --fifth-color: #CECCE6;
     --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-    --paragraph-text: font-family: "Poppins", sans-serif;
+    --paragraph-text: font-family: "Lato", sans-serif;
 }
 
 body {
@@ -14,12 +14,12 @@ body {
 
 h1 {
     line-height: 100px;
-    font-family: "Playfair Display", serif;
+    font-family: "Lato", serif;
     font-size: 60px;
     font-weight: bolder;
 }
 h2 {
-    font-family: "Poppins", sans-serif;
+    font-family: "Lato", sans-serif;
     margin-bottom: 60px;
     font-weight: bolder;
 }
