@@ -100,19 +100,19 @@ footer {
  }
 
 .certificate-images1:hover {
-    transform: scale(2.0) translate(40px);
+    transform: scale(1.5) translate(60px);
     transition: ease-in-out 0.3s;
    
 }
 
 .certificate-images2:hover {
-    transform: scale(2.0);
+    transform: scale(1.5);
     transition: ease-in-out 0.3s;
    
 }
 
 .certificate-images3:hover {
-    transform: scale(2.0) translate(-40px);
+    transform: scale(1.5) translate(-60px);
     transition: ease-in-out 0.3s;
    
 }
