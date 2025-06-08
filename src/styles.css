@@ -40,8 +40,8 @@ footer {
 .hero {
     padding-top: 190px;
     text-align: center;
-    background-image: url("/images/hero.jpg");
-    /*background-color: #D9CECF; */
+    /* background-image: url("/images/hero.jpg"); */
+    background-color: #D9CECF;
     min-height: 720px;
     margin: 0px 20px 50px 20px;
 }
