@@ -38,12 +38,28 @@ footer {
     background-color: var(--primary-color);
 }
 .hero {
-    padding-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+    flex-wrap: wrap;
     text-align: center;
-    /* background-image: url("/images/hero.jpg"); */
-    background-color: #D9CECF;
+    background-image: url("/images/hero.jpg");
+    /* background-color: #CED3D7; */
     min-height: 720px;
     margin: 0px 20px 50px 20px;
+}
+.hero-img {
+    width: 400px;
+    height: auto;
+    margin-left: -100px;
+}
+.hero-txt h1 {
+    margin-bottom: 0.5rem;
+}
+.buttons {
+    display: block;
 }
 .header {
     padding-top: 70px;
