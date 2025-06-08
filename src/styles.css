@@ -210,7 +210,7 @@ footer {
     transition: opacity 0.3s ease;
   }
   
-  .hover-div-pasta:hover::after {
+.hover-div-pasta:hover::after {
     visibility: visible;
     opacity: 1;
   }
